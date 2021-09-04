@@ -1,10 +1,10 @@
 <template>
-    <div class="bg-gray-700 rounded-md p-10">
-        <h2 class="text-white text-3xl font-black inline-block mr-10">Characters</h2>
-        <div class="bg-white inline-block px-5 py-2 rounded-full">
+    <div class="bg-gray-700 rounded-md p-5 lg:p-10">
+        <h2 class="text-white text-3xl font-black block lg:inline-block mr-10 mb-5">Characters</h2>
+        <div class="bg-white block w-10/12 lg:w-auto lg:inline-block px-5 py-2 rounded-full mx-auto">
             <input
                 v-model="search"
-                class="bg-transparent outline-none"
+                class="w-full bg-transparent outline-none"
                 type="text"
                 placeholder="Search"
             />

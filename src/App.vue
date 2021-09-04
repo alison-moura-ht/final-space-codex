@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-gray-800 p-20">
-    <img width="300" alt="Vue logo" src="./assets/Final_Space_Logo.png" class="mx-auto mb-10" />
+  <div class="bg-gray-800 p-2 lg:p-20">
+    <img width="300" alt="Vue logo" src="./assets/Final_Space_Logo.png" class="mx-auto mb-10 mt-20 lg:mt-0" />
     <characters-list></characters-list>
   </div>
-  <footer class="bg-gray-900 px-20 py-10 text-sm">
+  <footer class="bg-gray-900 px-10 lg:px-20 py-10 text-sm">
     <p class="text-white">
       An example of frontend aplication consuming
       <a

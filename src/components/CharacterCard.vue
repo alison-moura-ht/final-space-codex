@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white p-7 rounded-md m-5">
+    <div class="bg-white p-7 rounded-md m-5 w-56 flex-auto">
         <img
             :src="character.img_url"
             alt="Character's image"
