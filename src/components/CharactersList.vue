@@ -10,7 +10,7 @@
             />
         </div>
         <div class="flex flex-wrap justify-between">
-            <character-card v-for="character in characters" :character="character"></character-card>
+            <character-card v-for="character in characters" :character="character" :key="character.id"></character-card>
         </div>
         <div v-if="characters.length <= 0" class="mt-10 text-center">
             <p class="text-white">No character found</p>
